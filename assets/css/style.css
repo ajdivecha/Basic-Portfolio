@@ -1,2 +1,100 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background-image: url("../images/background.png");
+}
 
+
+header {
+  background: #1662dd;
+  border-bottom: solid;
+  border-top: solid;
+  border-color: black;
+  text-align: center;
+}
+
+
+h1 {
+  padding: 20px 0px 0px 130px;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  text-align: left;
+}
+
+h2 {
+	font-size: 24px;
+	padding-left: 5px;
+}
+
+
+a {
+  color: #1662dd;
+}
+
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+
+#contact-info {
+	float: left;
+	background-color: white;
+	width: 35%;
+	border: solid;
+	border-color: black;
+	margin: 10px 10px 10px 10px;
+}
+
+
+#main-bio {
+	float:left;
+	background-color: white;
+	border: solid;
+	border-color: black;
+	margin: 10px 0px 10px 10px;
+	width: 60%;
+}
+
+
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  float: left;
+  background-color: white;
+  padding: 5px;
+}
+
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+footer {
+	background: #1662dd;
+	text-align: center;
+	font-size: 10px;
+	color: #eee;
+	border-top: solid;
+	border-bottom: solid;
+	border-color: black;
+
+}
+
+
+.footer {
+	bottom: 0px;
+	position: absolute;
+	width: 100%;
 }
