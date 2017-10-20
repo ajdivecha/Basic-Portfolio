@@ -1,7 +1,12 @@
+* {
+	box-sizing: border-box;
+}
+
+
 body {
   padding: 0;
   margin: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Georgia', Times, Times New Roman, serif;
   font-size: 18px;
   line-height: 150%;
   color: #333;
@@ -10,31 +15,49 @@ body {
 
 
 header {
-  background: #1662dd;
-  border-bottom: solid;
+  color: black;	
   border-top: solid;
   border-color: black;
-  text-align: center;
+  text-align: left;
+  float: left;
+  margin: 0px 0px 0px 123px;
+  padding: 6px 10px;
+  background-image: url("../images/header.png");
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+nav {
+	text-align: right;
+	margin: 0px 0px 10px 0px;
+	padding: 35px 160px 35px 0px;
+	font-size: 18px;
+	border-top: solid;
+	border-bottom: solid;
+	border-color: black;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-image: url("../images/header.png");
 }
 
 
 h1 {
-  padding: 20px 0px 0px 130px;
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 28px;
-  color: #eee;
-  text-align: left;
+
 }
+
 
 h2 {
 	font-size: 24px;
 	padding-left: 5px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 
 a {
-  color: #1662dd;
+  color: black;
+}
+
+
+p {
+	margin: 0px 10px;
 }
 
 
@@ -44,33 +67,34 @@ a {
 }
 
 
-#contact-info {
+#connect {
 	float: left;
-	background-color: white;
-	width: 35%;
+	width: 240px;
+	height: 170px;
+	padding: 15px 10px;
 	border: solid;
 	border-color: black;
 	margin: 10px 10px 10px 10px;
+	background-color: white;
 }
 
 
 #main-bio {
-	float:left;
-	background-color: white;
+	float: left;
 	border: solid;
 	border-color: black;
-	margin: 10px 0px 10px 10px;
-	width: 60%;
+	padding: 0px 10px 10px 10px;
+	width: 610px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background-color: white;
 }
 
 
 #bio-image {
-  width: 200px;
-  height: 200px;
-  margin-right: 20px;
-  float: left;
-  background-color: white;
-  padding: 5px;
+  float: left;	
+  width: 200px; 
+  padding: 7px 7px 5px 6px;
 }
 
 
@@ -82,19 +106,19 @@ a {
 
 
 footer {
-	background: #1662dd;
 	text-align: center;
 	font-size: 10px;
-	color: #eee;
+	color: black;
 	border-top: solid;
 	border-bottom: solid;
 	border-color: black;
-
+	background-image: url("../images/header.png");
+	margin: 20px 0px 0px 0px;
 }
 
 
 .footer {
 	bottom: 0px;
-	position: absolute;
+	position: static;
 	width: 100%;
 }
